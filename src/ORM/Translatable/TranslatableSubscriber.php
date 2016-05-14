@@ -323,7 +323,7 @@ class TranslatableSubscriber extends AbstractSubscriber
         }
 
         if ($locale = $this->getDefaultLocale()) {
-            $entity->setDefaultLocale($locale);
+            //$entity->setDefaultLocale($locale);
         }
     }
 
